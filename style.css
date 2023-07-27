@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#box {
+  height: 100%;
+  width: 100%;
+  background-color: #eacbae;
+  padding: 20px;
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+  background-color: #061322;
+  display: flex;
+}
+
+#left {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+#left img {
+  height: 250px;
+  width: 250px;
+}
+
+#left #img1 {
+  position: absolute;
+  top: 5%;
+  border-radius: 50% 50% 50% 0;
+  left: 10%;
+}
+
+#left #img2 {
+  position: absolute;
+  top: 60%;
+  z-index: -1;
+  border-radius: 50% 50% 0 50%;
+  left: 60%;
+}
+
+#left h5 {
+  color: black;
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  font-size: 25px;
+  padding: 5px 10px;
+  bottom: 9%;
+  left: 4%;
+}
+
+#left h6 {
+  color: #fff;
+  z-index: -1;
+  background-color: #C65EA8;
+  display: inline-block;
+  position: absolute;
+  font-size: 25px;
+  padding: 5px 10px;
+  bottom: 4%;
+  left: 13%;
+}
+
+#left h1,
+h2,
+h3 {
+  color: #fff;
+  font-size: 150px;
+  font-weight: 600;
+  position: absolute;
+}
+
+#left h4 {
+  color: #fff;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 32px;
+}
+
+#left h1 {
+  top: 20%;
+  left: 40%;
+}
+
+#circle {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background-color: #f96051;
+  border-radius: 50%;
+  top: 18%;
+  left: 67%;
+  z-index: 1;
+}
+
+#left h2 {
+  top: 43%;
+  left: 10%;
+}
+
+#left h3 {
+  top: 65%;
+  left: 40%;
+}
+
+#right {
+  height: 100%;
+  z-index: 100;
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+#card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-radius: 15px 0 15px 0;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+
+#card img {
+  height: 90%;
+  width: 30%;
+  object-fit: cover;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+.first {
+  background-color: #00b7cf;
+}
+
+.second {
+  background-color: #6545f4;
+  margin-top: 20px;
+}
+
+.third {
+  background-color: #f96252;
+  margin-top: 20px;
+}
+
+#right #data {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+#right button {
+  padding: 10px 20px;
+  border: none;
+}
+
+#first-btn {
+  background-color: #f9d746;
+}
+
+#second-btn {
+  background-color: #f2afcd;
+}
+
+#third-btn {
+  background-color: #00b7cf;
+}
+
+#bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#qr {
+  display: flex;
+  align-items: center;
+}
+
+#qr img {
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 0;
+}
