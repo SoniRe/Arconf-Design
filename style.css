@@ -1,8 +1,13 @@
+@font-face {
+  font-family: myFont;
+  src: url(./Gilroy-Medium.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: gilroy;
+  font-family: myFont;
 }
 
 html,
@@ -66,7 +71,7 @@ body {
 #left h6 {
   color: #fff;
   z-index: -1;
-  background-color: #C65EA8;
+  background-color: #c65ea8;
   display: inline-block;
   position: absolute;
   font-size: 25px;
